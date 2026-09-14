@@ -72,7 +72,10 @@ ul {
 
 /* ----------------------------- Tipografía ----------------------------- */
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-serif);
   font-weight: 600;
   color: var(--navy);
@@ -206,7 +209,7 @@ h1, h2, h3, h4 {
   gap: 1.9rem;
 }
 
-.main-nav > a:not(.btn) {
+.main-nav>a:not(.btn) {
   font-size: 0.925rem;
   font-weight: 500;
   color: var(--ink);
@@ -214,7 +217,7 @@ h1, h2, h3, h4 {
   padding-block: 0.35rem;
 }
 
-.main-nav > a:not(.btn)::after {
+.main-nav>a:not(.btn)::after {
   content: "";
   position: absolute;
   left: 0;
@@ -228,12 +231,12 @@ h1, h2, h3, h4 {
   transition: transform 0.25s ease;
 }
 
-.main-nav > a:not(.btn):hover::after,
-.main-nav > a:not(.btn).active::after {
+.main-nav>a:not(.btn):hover::after,
+.main-nav>a:not(.btn).active::after {
   transform: scaleX(1);
 }
 
-.main-nav > a:not(.btn).active {
+.main-nav>a:not(.btn).active {
   color: var(--navy);
 }
 
@@ -362,6 +365,7 @@ h1, h2, h3, h4 {
     opacity: 0;
     transform: translateY(20px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -712,7 +716,7 @@ h1, h2, h3, h4 {
   margin-bottom: 1.1rem;
 }
 
-.footer-col li + li {
+.footer-col li+li {
   margin-top: 0.55rem;
 }
 
@@ -799,7 +803,7 @@ h1, h2, h3, h4 {
   box-shadow: var(--shadow-sm);
 }
 
-.service-block + .service-block {
+.service-block+.service-block {
   margin-top: 1.6rem;
 }
 
@@ -1013,11 +1017,11 @@ h1, h2, h3, h4 {
     display: flex;
   }
 
-  .main-nav > a:not(.btn) {
+  .main-nav>a:not(.btn) {
     padding: 0.6rem 0;
   }
 
-  .main-nav > a:not(.btn)::after {
+  .main-nav>a:not(.btn)::after {
     display: none;
   }
 

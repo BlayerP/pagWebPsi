@@ -33,7 +33,7 @@
 
   var headerHtml =
     '<div class="container header-inner">' +
-    '<a class="brand" href="index.html">Luisa<span>Timadora profesional</span></a>' +
+    '<a class="brand" href="index.html">Marisa Cara<span>Psicóloga sanitaria</span></a>' +
     '<button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false">' +
     '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>' +
     "</button>" +

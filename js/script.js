@@ -50,4 +50,27 @@
       }
     });
   }
+
+  var nlForm = document.getElementById("newsletter-form");
+  if (nlForm) {
+    nlForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      var email = nlForm.querySelector("#newsletter-email");
+      var error = document.getElementById("newsletter-error");
+      var success = document.getElementById("newsletter-success");
+
+      error.classList.remove("show");
+      success.classList.remove("show");
+
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email.value.trim())) {
+        error.classList.add("show");
+        email.focus();
+        return;
+      }
+
+      success.classList.add("show");
+      nlForm.reset();
+    });
+  }
 })();
