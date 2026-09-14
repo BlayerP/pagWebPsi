@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" role="img" aria-label="Ilustración decorativa abstracta">
+  <defs>
+    <linearGradient id="a3bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8E9BF0"/>
+      <stop offset="1" stop-color="#656AC9"/>
+    </linearGradient>
+  </defs>
+  <path d="M240 24C330 24 430 80 436 182C442 284 366 368 258 430C184 474 74 452 52 386C30 320 6 264 42 196C78 128 150 24 240 24Z" fill="#C2CDFF" fill-opacity="0.5"/>
+  <path d="M240 70C316 70 398 118 404 203C410 288 346 358 256 412C192 452 104 434 86 380C68 326 48 278 78 221C108 164 164 70 240 70Z" fill="url(#a3bg)" fill-opacity="0.85"/>
+  <circle cx="240" cy="220" r="96" fill="#fff" fill-opacity="0.35"/>
+  <circle cx="240" cy="220" r="52" fill="#fff" fill-opacity="0.5"/>
+  <path d="M330 300C330 330 300 340 240 340C180 340 150 330 150 300" stroke="#fff" stroke-width="10" stroke-linecap="round" fill="none" fill-opacity="0.7"/>
+  <circle cx="150" cy="140" r="16" fill="#D498CA"/>
+  <circle cx="330" cy="150" r="10" fill="#83A68E"/>
+</svg>

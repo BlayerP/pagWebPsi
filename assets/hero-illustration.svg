@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" role="img" aria-label="Ilustración decorativa">
+  <defs>
+    <linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C2CDFF"/>
+      <stop offset="1" stop-color="#8E9BF0"/>
+    </linearGradient>
+    <linearGradient id="hpink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E5B8DD"/>
+      <stop offset="1" stop-color="#D498CA"/>
+    </linearGradient>
+    <linearGradient id="hsage" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9C4B0"/>
+      <stop offset="1" stop-color="#83A68E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="240" cy="240" r="210" fill="url(#hbg)"/>
+  <path d="M240 60C316 60 398 96 404 186C410 276 354 344 262 396C190 438 96 418 78 354C60 290 18 250 62 186C106 122 164 60 240 60Z" fill="#fff" fill-opacity="0.35"/>
+  <path d="M240 96C303 96 368 126 372 199C376 272 330 327 254 370C196 404 122 389 107 337C92 285 60 253 95 201C130 149 177 96 240 96Z" fill="url(#hpink)" fill-opacity="0.85"/>
+  <circle cx="318" cy="140" r="34" fill="url(#hsage)"/>
+  <circle cx="150" cy="150" r="16" fill="#fff" fill-opacity="0.7"/>
+  <path d="M214 212C128 236 128 300 214 320" stroke="#3A3B70" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <path d="M266 232C320 244 320 286 266 298" stroke="#3A3B70" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="336" cy="320" r="10" fill="#3A3B70" fill-opacity="0.6"/>
+  <circle cx="126" cy="330" r="8" fill="#3A3B70" fill-opacity="0.45"/>
+</svg>

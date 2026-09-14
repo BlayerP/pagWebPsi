@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 560" fill="none" role="img" aria-label="Ilustración de retrato decorativa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C2CDFF"/>
+      <stop offset="1" stop-color="#AEB9F5"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE9FA"/>
+      <stop offset="1" stop-color="#E0B3D6"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 480C60 392 96 340 176 330C266 318 330 352 480 360V560H0V480Z" fill="url(#bg)"/>
+  <path d="M96 480C120 408 160 360 240 358C320 356 368 398 384 470L96 480Z" fill="#3A3B70" fill-opacity="0.12"/>
+  <circle cx="240" cy="150" r="96" fill="url(#bg)"/>
+  <ellipse cx="240" cy="150" rx="84" ry="72" fill="url(#shade)"/>
+  <circle cx="242" cy="440" r="150" fill="#fff" fill-opacity="0.4"/>
+  <path d="M128 470C152 384 196 356 240 356C284 356 328 384 352 470H128Z" fill="#3A3B70" fill-opacity="0.4"/>
+  <circle cx="180" cy="120" r="12" fill="#83A68E" fill-opacity="0.8"/>
+  <circle cx="300" cy="110" r="8" fill="#D498CA"/>
+  <circle cx="300" cy="300" r="10" fill="#3A3B70" fill-opacity="0.45"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none" role="img" aria-label="Ilustración decorativa abstracta">
+  <defs>
+    <linearGradient id="a2bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E5B8DD"/>
+      <stop offset="1" stop-color="#D498CA"/>
+    </linearGradient>
+    <linearGradient id="a2s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9C4B0"/>
+      <stop offset="1" stop-color="#83A68E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="240" cy="240" r="210" fill="#C2CDFF" fill-opacity="0.55"/>
+  <path d="M240 74C296 74 352 98 374 148C396 198 386 258 360 306C334 354 290 398 232 392C174 386 128 360 104 310C80 260 78 200 102 156C126 112 184 74 240 74Z" fill="#fff" fill-opacity="0.4"/>
+  <circle cx="240" cy="230" r="118" fill="url(#a2bg)" fill-opacity="0.9"/>
+  <circle cx="240" cy="230" r="74" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="6 10"/>
+  <circle cx="240" cy="230" r="34" fill="url(#a2s)"/>
+  <circle cx="330" cy="120" r="14" fill="#D498CA"/>
+  <circle cx="138" cy="330" r="18" fill="#3A3B70" fill-opacity="0.35"/>
+</svg>
